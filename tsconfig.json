@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+     "lib": [
+        "es5",
+        "es6"
+     ],
+     "target": "ES6",
+     "module": "commonjs",
+     "moduleResolution": "node",
+     "outDir": "./build",
+     "emitDecoratorMetadata": true,
+     "experimentalDecorators": true,
+     "sourceMap": true,
+     "types": ["node", "typeorm"],
+     "esModuleInterop": true
+  }
+}
+
+
+// {
+//     "compilerOptions": {
+//       "target": "es6",
+//       "module": "commonjs",
+//       "rootDirs": ["./src", "./swagger"],
+//       "moduleResolution": "node",
+//       "forceConsistentCasingInFileNames": true,
+//       "outDir": "./dist",
+//       "esModuleInterop": true,
+//       "noEmitOnError": false,
+//       "checkJs": false,
+//       "emitDecoratorMetadata": true,
+//       "experimentalDecorators": true,
+//       "skipLibCheck": true,
+//       "resolveJsonModule": true,
+//       "strict": true,
+//       "strictPropertyInitialization": false,
+//       "types": ["node"],
+//       "baseUrl": ".",
+//       "typeRoots": ["./src/types", "./node_modules/@types"],
+//       "sourceMap": false,
+//       "declaration": true
+//     },
+//     "include": ["src/**/*"],
+//     "exclude": ["node_modules"]
+//   }
+  
