@@ -101,9 +101,9 @@ export class Book extends BaseEntity {
     const startDate = new Date(startingDate).getTime();
     const endDate = new Date(endingDate).getTime();
 
-    bookings.forEach((booking) => {
-      const bookingStart = new Date(booking.bookingDate[0]).getTime();
-      const bookingEnd = new Date(booking.bookingDate[1]).getTime();
+    bookings.forEach((book) => {
+      const bookingStart = new Date(book.bookingDate[0]).getTime();
+      const bookingEnd = new Date(book.bookingDate[1]).getTime();
       const isOverlapping =
         (startDate >= bookingStart && startDate <= bookingEnd) ||
         (endDate >= bookingStart && endDate <= bookingEnd) ||
